@@ -1,0 +1,50 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .formControls {
+    margin: 10px;
+    padding: 2px;
+  }
+
+  .formControls > label {
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+  }
+  .formControls > input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: 0.1s ease-in-out;
+  }
+  .formControls > input:focus {
+    outline: 2px solid #84c586;
+    outline-offset: 1px;
+    transform: scale(1.05);
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    width: 450px;
+  }
+  @media only screen and (max-width: 480px) {
+    .formContainer {
+      width: 290px;
+    }
+    .formControls > input {
+      width: 150px;
+    }
+  }
