@@ -50,7 +50,7 @@ Meet Carlos he works as a backend developer at a fortune 500 company and in his 
 - Java JRE and JDK 17+
 
 ### SetUp
-1. Inside of the backend folder run
+1. Run
 ``` 
 docker-compose up 
 ```
